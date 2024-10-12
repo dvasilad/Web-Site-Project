@@ -5,7 +5,25 @@
     color:violet;
 }
 
-img { 
+#introimg { 
     width: 500px;
-
+    border-radius: 50px;
+}
+#skincare {
+    width: 100px;
+}
+#bodycare {
+    width: 100px;
+}
+#haircare {
+    width: 100px;
+}
+#prodtitle {
+    color:fuchsia
+}
+.listtitle {
+    color: hotpink;
+}
+#contacttitle {
+    color: blue;
 }
