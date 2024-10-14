@@ -7,8 +7,7 @@
 
 .container {
     display: flex;
-    flex-direction:row;
-    
+    flex-direction:row; 
 }
 
 #introimg { 
@@ -32,4 +31,49 @@
 }
 #contacttitle {
     color: blue;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: thistle;
+    color: #333;
+}
+
+header {
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+h2 {
+    color: violet;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+.map-container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
 }
