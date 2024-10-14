@@ -1,37 +1,96 @@
 #firsttitle {
-    color: darkmagenta;}
+    color: white;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin: 0;
+}
 
 #secondtitle {
-    color:violet;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    margin: 0;
 }
-
+nav {
+    background-color:plum;
+    padding: 20px;
+    width: 100%;
+}
+.nav-link {
+    color: purple;
+}
 .container {
     display: flex;
-    flex-direction:row; 
+    flex-direction: row;
 }
 
-#introimg { 
+#introimg {
     width: 500px;
-    border-radius: 50px;
 }
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.email {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.email::after {
+    content: 'info@sensities.gr';
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 0.9rem; 
+}
+
+.email:hover::after {
+    opacity: 1;
+}
+
+
 #skincare {
     width: 100px;
 }
+
 #bodycare {
     width: 100px;
 }
+
 #haircare {
     width: 100px;
 }
+
 #prodtitle {
-    color:fuchsia
+    color: fuchsia
 }
+
 .listtitle {
     color: hotpink;
 }
+
 #contacttitle {
     color: blue;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -45,6 +104,7 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
 
 h1 {
@@ -70,10 +130,35 @@ footer {
     background-color: #333;
     color: white;
 }
+
 .map-container {
     max-width: 800px;
     margin: 20px auto;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
+}
+#contactform {
+    margin: 20px;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: plum;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #d8a3d1;
 }
