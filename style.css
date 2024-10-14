@@ -5,6 +5,12 @@
     color:violet;
 }
 
+.container {
+    display: flex;
+    flex-direction:row;
+    
+}
+
 #introimg { 
     width: 500px;
     border-radius: 50px;
